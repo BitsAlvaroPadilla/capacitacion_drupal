@@ -1,5 +1,0 @@
-name: 'Take a Pet'
-type: module
-description: 'This module allows us to adopt a pet'
-core_version_requirement: 9.x
-package: 'Custom'
