@@ -1,0 +1,22 @@
+take_a_pet.adopt_form:
+  path: '/take_a_pet/form'
+  defaults:
+    _form: '\Drupal\take_a_pet\Form\AdoptForm'
+    _title: 'Adopt Form'
+  requirements:
+    _access: 'TRUE'
+
+take_a_pet.change_photo:
+  path: '/take_a_pet/change_photo'
+  defaults:
+    _controller: 'Drupal\take_a_pet\Controller\TakeBreakController::change_photo'
+  requirements:
+    _permission: 'access content'
+
+take_a_pet.autocomplete_adopter:
+  path: '/autocomplete/adopter'
+  defaults:
+    _controller: 'Drupal\take_a_pet\Controller\TakeBreakController::autocomplete_adopter'
+    _format: json
+  requirements:
+    _permission: 'access content'
