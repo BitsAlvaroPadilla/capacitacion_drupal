@@ -1,0 +1,10 @@
+take_a_break_form_adopter:
+  version: 1.0
+  js:
+    assets/js/form_adopter.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+
