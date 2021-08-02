@@ -1,0 +1,4 @@
+services:
+  database_operations:
+    class: Drupal\take_a_pet\DatabaseOperationServices
+
